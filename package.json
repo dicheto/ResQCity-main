@@ -14,6 +14,9 @@
     "prisma:sync-taxonomy": "tsx prisma/sync-taxonomy.ts"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
     "@prisma/client": "^5.22.0",
     "@simplewebauthn/browser": "^13.2.2",
     "@simplewebauthn/server": "^13.2.3",
@@ -51,15 +54,12 @@
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "@types/speakeasy": "^2.0.10",
-    "autoprefixer": "^10.4.17",
     "cross-env": "^10.1.0",
     "eslint": "9.39.4",
     "eslint-config-next": "16.1.6",
     "ico": "^0.3.3",
-    "postcss": "^8.4.33",
     "prisma": "^5.9.0",
     "sharp": "^0.34.5",
-    "tailwindcss": "^3.4.1",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   }
